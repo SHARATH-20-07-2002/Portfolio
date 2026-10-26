@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharath Y | Software Engineer & DevOps Enthusiast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Header -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">&lt;Sharath.DevOps /&gt;</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education & Research</a></li>
+        <li><a href="#contact" class="btn-nav">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <div class="badge">Seeking Entry-Level DevOps Engineer Roles</div>
+        <h1 class="hero-title">Hi, I'm <span class="highlight">Sharath Y</span></h1>
+        <h2 class="hero-subtitle">Software Engineer & DevOps Enthusiast</h2>
+        <p class="hero-desc">
+          MCA graduate passionate about continuous integration, automated delivery, and cloud infrastructure. Experienced in developing production-facing smart-city analytics dashboards at India Urban Data Exchange (IUDX), containerizing applications with Docker, and architecting automated CI/CD pipelines targeting AWS cloud instances.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">Explore Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+        <div class="social-links">
+          <a href="https://linkedin.com/in/sharath-y-2a8895238" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9h2.8v8.37h-2.8V10.9M7.86 6.54a1.62 1.62 0 0 0-1.63 1.62c0 .89.73 1.62 1.63 1.62.9 0 1.63-.73 1.63-1.62 0-.89-.73-1.62-1.63-1.62Z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/SHARATH-20-07-2002" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
+            GitHub
+          </a>
+          <a href="mailto:sharathjyrt@gmail.com">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            sharathjyrt@gmail.com
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="card-icon">⚙️</div>
+            <h3>DevOps & Cloud Core</h3>
+            <p>Dedicated to build automation, containerization with Docker, CI/CD orchestration using GitHub Actions, Linux administration, and deployment onto AWS (EC2 & S3).</p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon">💻</div>
+            <h3>Modern Web Engineering</h3>
+            <p>Proven background developing interactive web applications using React.js, dynamic client-side routing via React Router, modern responsive CSS/Sass, and clean JavaScript/Python logic.</p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon">🔬</div>
+            <h3>Data & Research</h3>
+            <p>Experienced in relational database design (MySQL, SQL query tuning) and author of a Scopus-indexed research paper on Causal-Enhanced Human-in-the-Loop AI architectures.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Technical Expertise</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-icon">☁️</span>
+              <h3>DevOps & Cloud</h3>
+            </div>
+            <div class="skill-tags">
+              <span>Docker</span>
+              <span>GitHub Actions (CI/CD)</span>
+              <span>AWS (EC2, S3)</span>
+              <span>Linux Administration</span>
+              <span>Git & GitHub Workflows</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-icon">🌐</span>
+              <h3>Web Technologies</h3>
+            </div>
+            <div class="skill-tags">
+              <span>React.js</span>
+              <span>React Router</span>
+              <span>HTML5</span>
+              <span>CSS3 / Sass / SCSS</span>
+              <span>Responsive Web Design</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-icon">💻</span>
+              <h3>Languages & Databases</h3>
+            </div>
+            <div class="skill-tags">
+              <span>Python</span>
+              <span>JavaScript</span>
+              <span>MySQL</span>
+              <span>SQL Querying</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-icon">🗣️</span>
+              <h3>Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span>English (Fluent)</span>
+              <span>Tamil (Native)</span>
+              <span>Tulu</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="timeline">
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Full Stack Developer Intern</h3>
+                  <h4 class="company">India Urban Data Exchange (IUDX)</h4>
+                </div>
+                <span class="timeline-date">May 2026 – July 2026</span>
+              </div>
+              <ul class="task-list">
+                <li>Developed and deployed a modular React-based Data Stories Gallery dashboard for smart-city metrics across urban development areas.</li>
+                <li>Built internal navigation, secure external redirects, and dynamic URL query parsing to preserve user state across production servers.</li>
+                <li>Created reusable responsive UI components using Sass/SCSS and collaborated through Git-based version control and code reviews.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Junior Java Full Stack Developer Intern</h3>
+                  <h4 class="company">NSDC - NASSCOM</h4>
+                </div>
+                <span class="timeline-date">2023 – 2024</span>
+              </div>
+              <ul class="task-list">
+                <li>Completed structured full-stack training covering HTML, CSS, JavaScript, and SQL.</li>
+                <li>Practiced building and connecting frontend and backend components as part of a guided full-stack development curriculum.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Academic & Technical Projects</h2>
+        <div class="projects-grid">
+          
+          <!-- Featured DevOps Project -->
+          <div class="project-card featured">
+            <div class="project-badge">Featured DevOps Project</div>
+            <div class="project-header">
+              <h3 class="project-title">CI/CD Deployment Pipeline for a Containerized Web App</h3>
+              <span class="project-year">2026</span>
+            </div>
+            <p class="project-desc">
+              Built a task-management web application using React and MySQL as a hands-on project to learn and master the complete DevOps workflow from local code commit to production cloud hosting.
+            </p>
+            <ul class="project-highlights">
+              <li>Containerized the entire application multi-tier architecture using <strong>Docker</strong> so it can be set up and run consistently on any machine with a single command.</li>
+              <li>Engineered an automated <strong>GitHub Actions CI/CD pipeline</strong> that runs continuous automated checks on each push to the main branch and automatically deploys the build to an <strong>AWS EC2</strong> instance.</li>
+              <li>Gained practical hands-on experience with <strong>Linux server configuration</strong>, Git workflows, port mappings, and troubleshooting failed deployment workflows.</li>
+            </ul>
+            <div class="project-tech">
+              <span>Docker</span>
+              <span>GitHub Actions</span>
+              <span>AWS EC2</span>
+              <span>Linux</span>
+              <span>React</span>
+              <span>MySQL</span>
+            </div>
+          </div>
+
+          <!-- Portfolio Project -->
+          <div class="project-card">
+            <div class="project-badge badge-web">Web Project</div>
+            <div class="project-header">
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <span class="project-year">2025</span>
+            </div>
+            <p class="project-desc">
+              Designed and developed a responsive personal portfolio website to showcase technical capabilities, projects, academic milestones, and open-source contributions.
+            </p>
+            <ul class="project-highlights">
+              <li>Implemented a modern, mobile-responsive layout following current UI/UX design conventions.</li>
+              <li>Engineered cleanly organized modular stylesheets with custom variables, smooth transitions, and accessible semantic markup.</li>
+            </ul>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Responsive UI</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education, Certifications & Research -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">Education & Research</h2>
+        <div class="edu-grid">
+          
+          <!-- Column 1: Education & Certifications -->
+          <div class="edu-column">
+            <h3 class="sub-heading">Academic Qualifications</h3>
+            
+            <div class="edu-card">
+              <h4>Master of Computer Applications (MCA)</h4>
+              <p class="institution">Sathyabama Institute of Science and Technology</p>
+              <span class="edu-duration">2024 – 2026</span>
+            </div>
+
+            <div class="edu-card">
+              <h4>B.Sc. in Computer Science</h4>
+              <p class="institution">SRM University</p>
+              <div class="edu-meta">
+                <span class="edu-duration">2020 – 2023</span>
+                <span class="cgpa-pill">CGPA: 8.56</span>
+              </div>
+            </div>
+
+            <h3 class="sub-heading" style="margin-top: 2rem;">Professional Certifications</h3>
+            <div class="cert-grid">
+              <div class="cert-item">
+                <span class="cert-icon">📜</span>
+                <div>
+                  <strong>Python Course</strong>
+                  <span class="cert-issuer">Udemy</span>
+                </div>
+              </div>
+              <div class="cert-item">
+                <span class="cert-icon">📜</span>
+                <div>
+                  <strong>SQL Course Completion</strong>
+                  <span class="cert-issuer">Codecademy</span>
+                </div>
+              </div>
+              <div class="cert-item">
+                <span class="cert-icon">📜</span>
+                <div>
+                  <strong>Web Development Course</strong>
+                  <span class="cert-issuer">Codecademy</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Research Papers & Presentations -->
+          <div class="edu-column">
+            <h3 class="sub-heading">Academic Papers & Activities</h3>
+
+            <div class="paper-card highlighted-paper">
+              <div class="paper-pill scopus">Scopus-Indexed Conference Paper</div>
+              <h4>Causal-Enhanced Trust-Aware Human-in-the-Loop Deep Learning with Adaptive Intervention Optimization for High-Reliability AI Systems</h4>
+              <p class="paper-venue">Authored and presented at an IFERP-organized, Scopus-indexed conference during MCA.</p>
+            </div>
+
+            <div class="paper-card">
+              <div class="paper-pill">Conference Paper</div>
+              <h4>Traffic Violation and Deduction System</h4>
+              <p class="paper-venue">Authored and presented a technical paper examining an ML-based approach to detecting vehicle line-crossing violations at PSG College (organized by TANSCHE).</p>
+            </div>
+
+            <div class="paper-card">
+              <div class="paper-pill">Technical Presentation</div>
+              <h4>Attendance Management System</h4>
+              <p class="paper-venue">Presented paper and technical demo at Bharath Institute.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-alt">
+      <div class="container contact-container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-sub">
+          Looking for an entry-level DevOps Engineer or Software Engineer opportunity? I'm available and eager to contribute to robust development and infrastructure teams.
+        </p>
+
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <h4>Location</h4>
+            <p>Chennai, India</p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">✉️</div>
+            <h4>Email</h4>
+            <p><a href="mailto:sharathjyrt@gmail.com">sharathjyrt@gmail.com</a></p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <h4>Phone</h4>
+            <p><a href="tel:+919445913462">+91 9445913462</a></p>
+          </div>
+        </div>
+
+        <div class="contact-actions">
+          <a href="https://linkedin.com/in/sharath-y-2a8895238" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            Connect on LinkedIn
+          </a>
+          <a href="https://github.com/SHARATH-20-07-2002" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+            Visit GitHub Profile
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Sharath Y. All rights reserved.</p>
+      <p class="footer-tagline">DevOps Enthusiast &bull; Built with Clean HTML5, CSS3 & JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
